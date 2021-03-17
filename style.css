@@ -1,0 +1,94 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+header{
+	width: 100%; 
+	height: 100vh;
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+.mainheader{
+	height: 100px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: : center;
+}
+.mainheader .logo img{
+	height: 70px;
+	width: 250px;
+	padding-left: 60px;
+
+}
+
+.mainheader nav{
+	width: 450px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.mainheader nav  a{
+	text-decoration: none;
+	color:black;
+	text-transform : uppercase;
+}
+
+.demo{
+	margin-right: 60px;
+}
+
+.mainheader button {
+	padding: 10px 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+}
+.left{
+	position: absolute;
+left: 6.04%;
+right: 70.3%;
+top: 16.47%;
+bottom: 78.3%;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 160%;
+
+color: #4B5D68;
+}
+
+.left button{
+	padding: 60px 40px;
+	text-align: left;
+	font-size: 14px;
+	columns: #9C69E2;
+	border: none;
+	border-radius: 50px;
+
+}
+main{
+	width: 100%; 
+	background-image: url('grp.jpg');
+	background-repeat: no-repeat;
+	background-size: 30% 30%;
+
+}
+main .right{
+	padding-right: 70px;
+}
+
+
+
+
+
+
